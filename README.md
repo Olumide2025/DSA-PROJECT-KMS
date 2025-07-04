@@ -30,17 +30,19 @@ The dataset contains information scraped from Amazon product pages, including:
 - Which customer returned items, and to which segment do they belong?
 - If the delivery truck is the most economical but the slowest shipping method, and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer.
 
-### Step-By-Step Guide
-Using MS Excel and SQL
+## Step-By-Step Guide
+
+### Using MS Excel and SQL
 
 Data Cleaning, Preparation and Database Creation.
-1.Open your dataset in Excel. 2.Check for missing values:
+1. Open your dataset in Excel. 2.Check for missing values:
 
 Check for blank spaces or missing values, fill or allow nulls.
-3.Create Database on SQL:
+3. Create Database on SQL:
 
 CREATE DATABASE DSAPROJECT_DBO
-4.Importing and Data call out on SQL: Right click on the newly created database and select task, and the select "Import Flat Files". Select my file and set the necessary data type to the following data like;(Row_ID as (integer) or (float), etc).
+
+4. Importing and Data call out on SQL: Right click on the newly created database and select task, and the select "Import Flat Files". Select my file and set the necessary data type to the following data like;(Row_ID as (integer) or (float), etc).
 
 --Data call_out;
 
